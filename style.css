@@ -1,0 +1,324 @@
+body{
+    background: #f8f8f8;
+    width:100%;
+    max-width:1200px;
+    margin : auto;
+    overflow : auto;
+    position :relative;
+}
+
+
+
+
+
+.wrapred {	
+    float : left;
+    width : 400px;
+    height : 400px;
+ 
+
+}
+
+.wrapblue {
+    float : left;
+    width : 400px;
+    height :400px;
+}
+
+a:link { color: black; }  
+a:visited { color: black; }
+a:hover {color:black;  }
+	
+a { text-decoration:none; }
+
+#title {
+    font-family : "avenir", "helvetica", "sans-serif";
+    font-size : 36px;
+	text-align: center;
+	color: #2299dd;
+	margin-top: 50px;
+	letter-spacing : 2px;
+	text-decoration :none;
+
+}
+
+#front { cursor: auto; } 
+
+
+#dot { 
+	font-family :"avenir", "helvetica", "sans-serif";
+	font-size : 36px;
+	text-align: center;
+	color: red; 
+	margin-top: 50px;
+	letter-spacing : 2px;
+	text-decoration: none
+ }
+
+
+#title:hover {
+   opacity : 0.7;
+}
+
+
+
+#redpill {
+	position : absolute;
+	margin-top : 0px;
+	margin-right : 0px;
+    border : 0px solid blue;
+    background : #f8f8f8 ;
+    min-width: 200px;
+    width : 400px;
+    height : 400px;
+
+    line-height:50px;
+    font-size:36px;
+    font-family : "helvetica", "sans-serif";
+}
+
+
+.redlist {
+	position : absolute;
+	right : 50px;
+	margin-top :50px;
+	margin-right : 50px;
+
+}
+
+.redlist ul {
+	font-family : "helvetica", "sans-serif";
+	font-size:10px;
+	margin :0;
+	padding :0;
+	list-style : none;
+	}
+
+.redlist ul li {
+	float:left;
+	width :200px;
+	height :200px;
+    opacity : 0.7;
+    line-height : 200px;
+    text-align : center;
+    font-family :"helvetica", "sans-serif";
+    font-size: 36px;
+
+}
+
+.redlist ul ul { display:none; }
+.redlist:hover ul{display:block; }
+.redlist:hover a{color:#f8f8f8;}
+.redlist:active ul{display:block;}
+.redlist:active a{color:#f8f8f8;}
+
+
+#bluepill {
+	position : absolute;
+	margin-top : 0px;
+	margin-left : 0px;
+    border : 0px solid blue;
+    background : #f8f8f8;
+    min-width: 200px;
+    width : 400px;
+    height : 400px;
+    line-height:50px;
+    font-size :36px;
+    font-family : "helvetica", "sans-serif";
+
+
+}
+
+
+.bluelist {
+    position :absolute;
+	left : 50px;
+	margin-top :50px;
+	margin-left : 50px;
+	
+
+}
+
+
+.bluelist ul {
+	font-family :"helvetica", "sans-serif";
+	font-size:10px;
+	margin :0;
+	padding :0;
+	list-style : none;
+		
+}
+
+.bluelist ul ul { display:none; }
+.bluelist:hover ul{display:block; }
+.bluelist:hover a{color:#f8f8f8;}
+.bluelist:active ul{display:block;}
+.bluelist:active a{color:#f8f8f8;}
+
+.bluelist ul li {
+	float:left;
+	width :200px;
+	height :200px;
+	opacity : 0.7;
+	line-height: 200px;
+	text-align : center;
+	font-size: 36px;
+	font-family: "helvetica" , "sans-serif";
+}
+
+#showcase {
+	background :#ee2211 ;
+
+}
+
+#showcase:hover { 
+	opacity :2;
+ }
+
+
+#about {
+	background :#aa5566 ;
+	
+}
+
+#about:hover { 
+	opacity :2;
+
+ }
+
+
+
+#designs {
+	background :#ee7777;
+	
+}
+
+#designs:hover { 
+	opacity :2;
+
+}
+
+
+#book {
+	background :#eedddd ;
+
+}
+
+#book:hover {
+	opacity :2;
+}
+
+
+#mundane {
+	background : #2277aa;
+	
+	
+}
+
+#mundane:hover {
+	opacity : 2;
+}
+
+#cement {
+	background :#886677; 
+	
+
+}
+
+#cement:hover {
+	opacity :2;
+}
+
+#square {
+	background :#99aacc ; 
+	
+}
+
+#square:hover {
+	opacity :2;
+}
+
+#boring {
+	background :#ddccdd ;
+	
+}
+
+#boring:hover {
+	opacity :2;
+}
+
+@media screen and (max-width: 1024px) {
+    .redlist { 
+    left:100px;
+    right:none;
+   
+}
+
+
+
+
+body { width : 600px; }
+
+
+}	
+
+@media screen and (max-width: 600px) {
+	
+	body { width : 320px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+	 }
+.bluelist {
+
+    margin-top:0px;
+    left : 0px;
+    margin-left: 60px;
+}
+.redlist {
+    margin-top:0px;
+    margin-right : 0px;
+    left :0px;
+    margin-left : 60px;
+
+
+}
+
+#bluepill { 
+    width :200px;
+    height : 200px; 
+    font-size :12px;
+    line-height:30px;
+}
+
+    .bluelist ul li { 
+    width:100px;
+	height:100px;
+	font-size:12px;
+	line-height:100px;
+	 }
+
+#redpill {
+    width : 200px ;
+	height : 200px;
+    font-size: 12px;
+    line-height:30px;}
+
+.redlist ul li { 
+    width:100px;
+	height :100px;
+	font-size:12px;
+	line-height:100px;
+	 }
+
+.wrapred{
+    height : 200px;
+	width: 200px;
+}
+
+.wrapblue{height :200px;
+	width : 200px;
+}
+
+
+
+
